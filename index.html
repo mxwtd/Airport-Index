@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ol@6.1.1/dist/ol.js"></script>
+  </head>
+  <body>
+    <div class="data_container">
+      <h1><span id="plane">🛩️</span><br>Airport Index</h1>
+      <input type="text" id="search-input" placeholder="Search by Name or IATA...">
+      <button id="search-btn" onclick="searchAirport()">Search</button>
+      <div id="flag"></div>
+      <div class="data_grid" id="data_grid">
+        <div id="airport-data"></div>
+      </div>
+      <div class="intro-container">
+        <div class="intro-info" id="intro-info">
+          <h2>Welcome.</h2>
+          <h3>Search for a city or an Airport above to learn some facts.</h3>
+          <h3>This app is designed to help you aggregate information about airports around the world.</h3>
+          <h3>🔎</h3>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
