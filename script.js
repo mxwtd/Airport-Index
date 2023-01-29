@@ -34,6 +34,10 @@ function searchAirport() {
         html = "⚠️ Please Enter a City Name or IATA Code. ⚠️";
       }
 
+      if (html === "") {
+        html = "⚠️ Please Enter a City Name or IATA Code. ⚠️";
+      }
+
       document.getElementById("airport-data").innerHTML = html;
     }
   });
