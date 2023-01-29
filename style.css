@@ -71,7 +71,7 @@ h1 {
   grid-template-columns: 1fr;
   grid-gap: 0.8rem;
   margin-top: 10px;
-  max-width: 35%;
+  max-width: 50%;
   min-width: 20%;
 }
 
@@ -100,7 +100,7 @@ h1 {
 .intro-info {
   color: #e8e8e8;
   font-size: 1rem;
-  max-width: 30%;
+  max-width: 50%;
   text-align: center;
   background: rgba(113, 75, 143, 0.2);
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
